@@ -9,7 +9,7 @@ export default function Page() {
   const { signOut } = useClerk()
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} >
       <Text style={styles.title}>Welcome!</Text>
       
       <Show when="signed-in">
